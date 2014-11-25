@@ -1,4 +1,4 @@
-package com.ccih.common.search.plugins;
+package my.search.plugins;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.solr.common.params.ModifiableSolrParams;
@@ -58,7 +58,7 @@ import java.util.Random;
  *
  * And add the SearchComponent definition:
  * ----------------------------------------
- *      <searchComponent name="trend" class="com.ccih.common.search.plugins.TrendSearchComponent">
+ *      <searchComponent name="trend" class="my.search.plugins.TrendSearchComponent">
  *          <str name="param">someParam</str>
  *      </searchComponent>
  *
